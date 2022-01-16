@@ -1,0 +1,37 @@
+.container {
+    .navbar{
+  width: 100%;
+  background: url('./POSTER\ AYO\ CUCI\ TANGAN.png');
+  margin: 10rem;
+  height: 40rem;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  .card {
+    background-color: rgb(240, 248, 125);
+    padding: 2rem;
+  }
+  .section-body-3 {
+    background-color: rgb(226, 32, 32);
+    padding: 2rem;
+  }
+  .section-body-1 {
+    background-color: rgb(226, 5, 208);
+    padding: 2rem;
+  }
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    .body-Anak{
+        background-color: rgb(61, 17, 82);
+        width: 20rem;
+        height: 20rem;
+    }
+}
+}
